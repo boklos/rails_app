@@ -1,0 +1,15 @@
+<h1>Searching for - <%= @search_term %></h1>
+<table border="1">
+	<tr>
+		<th>Image</th>
+		<th>Name</th>
+		<th>Description</th>
+	</tr>
+	<% @courses.each do |course| %>
+	<tr class=<%= cycle('even', 'odd') %>>
+		<td><%= image_tag(course["photoUrl"], size: "106")%></td> <!--image_tag is helper to get img-->
+		<td><%= course["name"] %></td>
+		<td><%= course["slug"] %></td>
+	</tr>
+	<% end %>
+</table>
