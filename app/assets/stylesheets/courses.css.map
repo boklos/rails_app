@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAGA,KAAM;EACL,eAAe,EAAE,QAAQ;;AAI1B,EAAG;EACF,OAAO,EAAE,IAAI;;AAGd,KAAM;EACL,gBAAgB,EAAE,OAAO",
+"sources": ["courses.scss"],
+"names": [],
+"file": "courses.css"
+}
